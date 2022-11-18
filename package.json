@@ -1,15 +1,18 @@
 {
   "name": "c8-hcms",
-  "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
     "node": ">=18.0.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "nuxt": "^3.0.0"
+  }
 }
