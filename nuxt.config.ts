@@ -3,6 +3,9 @@ export default defineNuxtConfig({
   typescript: {
     shim: false,
   },
+  css: [
+    '~/assets/reset.scss',
+  ],
   components: {
     dirs: [
       {

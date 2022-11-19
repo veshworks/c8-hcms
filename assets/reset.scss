@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1rem;
+  font-size: 1rem;
+  font: inherit;
+  text-decoration: none;
+  appearance: none;
+
+  &::before, &::after {
+    content: '';
+    content: none;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
