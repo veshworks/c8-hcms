@@ -3,4 +3,14 @@ export default defineNuxtConfig({
   typescript: {
     shim: false,
   },
+  components: {
+    dirs: [
+      {
+        path: '~/components/blocks/',
+        global: true,
+      },
+      '~/components',
+    ],
+    loader: true,
+  },
 });
